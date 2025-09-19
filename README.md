@@ -1,5 +1,6 @@
 # Currency_Converter
 created a Currency converter website
+
 💱 Currency Converter
 
 A simple and responsive Currency Converter web application built with HTML, CSS, and JavaScript.
@@ -18,7 +19,7 @@ Easy-to-use interface
 
 🛠️ Tech Stack
 
-HTML5
+HTML
 
 CSS3
 
