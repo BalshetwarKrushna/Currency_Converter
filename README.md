@@ -21,7 +21,7 @@ Easy-to-use interface
 
 HTML
 
-CSS3
+CSS
 
 JavaScript (Fetch API)
 
