@@ -1,0 +1,120 @@
+body{
+  background-color: rgb(238, 245, 245);
+  background-image: url(back.jpg);
+  background-size: cover;
+    background-position: center;
+    height: 100vh; 
+}
+*{
+  margin:0;
+  padding: 0;
+}
+.container{
+  min-height: 100vh;
+  font-family: 'Poppins',sans-serif;
+
+  
+  max-width: 80vw;
+  margin:auto;
+
+}
+.container h1,h2{
+  text-align: center;
+  margin:23px;
+  color: #00FFFF;
+    font-weight: bold;
+    text-align: center;
+      font-size: 48px; /* adjust size as needed */
+    font-weight: bold; /* optional */
+    background: linear-gradient(90deg, #00FFFF, #00FF99);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+   
+}
+footer{
+  text-align: center;
+}
+nav{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 700 ;
+  display:flex;
+  font-size:20px ;
+  background-color: antiquewhite;
+  padding: 23px;
+}
+
+nav ul li{
+  list-style: none;
+  margin :0 23px;
+}
+nav ul{
+  display:flex;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 23px ;
+}
+nav li a{
+  text-decoration: none;
+  color: rgb(22, 5, 5);
+  transition: all;
+  transition-duration: 500ms;
+}
+nav li a:hover{
+  text-decoration:none;
+  color:rgb(118, 61, 217)
+
+}
+.container form{
+  width:400px;
+  height:500px;
+
+  display:flex;
+  
+  flex-direction: column;
+  background-blend-mode: lighten;
+  align-items: center;
+  margin: auto;
+   background-color: transparent rgb(7, 190, 129); 
+    border: 2px solid white;      
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+.container form input[type='number'],select,label{
+   font-size: 25px;
+   margin-bottom: 23px 0;
+   
+   width: 400px;
+   border-radius: 10px;
+}
+
+.btn{
+  width:200px;
+  margin:23px 0;
+  height: 30px;
+  font-size: 23px;
+  border-radius: 10px;
+ background-color: hsl(42, 75%, 73%);
+  cursor: pointer;
+  
+}
+.output table{
+  width:300px;
+  background-color: rgb(229, 190, 143);
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  color: black;
+}
+.output{
+  display:none;
+}
+footer{
+ font-family: 'Poppins',sans-serif;
+ text-align: center;
+}
